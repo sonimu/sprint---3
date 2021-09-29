@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EasyTravel</title>
+    <link rel="shortcut icon" href="img/icono.png" type="image/x-icon">
+    <link rel="stylesheet" href="estilosReserva.css">
+    <!--link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;0,800;1,800&display=swap"
+        rel="stylesheet"> -->
+
+</head>
+
+<body bgcolor="black">
+    <header>
+        <nav>
+            <div class="logo">
+                <img src="img/logo.png" alt="">  
+              </div>
+          <div class="icono" id="icono">
+               <span>&#9776;</span>
+          </div>
+                 
+  
+          <div class="enlaces uno" id="enlaces">
+            <a href="#">Inicio</a>
+                  <a href="#"class="active">Login</a>
+                  <a href="#">Registro</a>
+                 
+                  <a href="#">Reserva</a>      
+                  <a href="#">Contacto</a>
+  
+              </div>  
+        </nav>
+
+        <section class="textos-header">
+        <input type="date">
+        <input type="datetime.local">
+        <input type="date">
+        <input type="month">
+
+
+<!-- filtrado -->
+        <div class="container">
+            <form action="javascript:void(0);" id="busquedaForm"><input type="text" id="valor"><button>Enviar</button></form>
+            <table>
+               <thead>
+                   <tr>
+                      <th>Nombre</th>
+                      <th>Disponibilidad</th>
+   
+                   </tr>
+               </thead>
+               <tbody id="cuerpo"></tbody>
+            </table>
+       </div>     
+       <script src="filtrado.js"></script>
+
+
+
+    </section>
+
+        <section class="textos-header">
+            <h1>Viajar es mas facil de lo que Crees</h1>
+            <h2>Con un app que te conecta en todo momento</h2>
+        </section>
+        
+    </header>
+    
+    <div>
+        <input type="text-search" placeholder="Que buscas?">
+        
+    </div> 
+
+<!--  
+Averiguar diferencia entre Fieldset y div
+    <fieldset>
+        <input type="search" placeholder="Que buscas?">
+        <input type="image" src="img/lupa.png">
+    </fieldset> 
+
+    <h3>Registrate en nuestra APP</h3>
+
+    <div>
+        <form action="/action_page.php">
+            <label for="fname">First Name</label>
+            <input type="text" id="fname" name="firstname" placeholder="Your name..">
+
+            <label for="lname">Last Name</label>
+            <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+
+            <label for="country">Country</label>
+            <select id="country" name="country">
+                <option value="colombia">Colombia</option>
+                <option value="canada">Canada</option>
+                <option value="usa">USA</option>
+            </select>
+
+            <input type="submit" value="Submit">
+        </form>
+    </div>
+-->
+
+
+
+<h2 class="titulo">Hospedarte con tu mascota ya no es un impedimento en
+    Easy Travel puedes hacerlo busca las mejores ofertas
+
+</h2>
+
+
+    <main>
+        <section class="contenedor-sobre-nosotros">
+            
+            <div class="contenedor-sobre-nosotros">
+                <img src="img/Mascotas1.jpg" alt="" class="imagen-about-us">
+                <div class="contenido-textos">
+            
+                               
+
+
+
+                    <h3>Encuentra tu hotel favorito hasta 40% de descuento</h3>
+                   
+                   
+                   
+                    <p>Reserva y paga en el Alojamiento, no debes ingresar tu tarjeta de credito
+                    </p>
+                    <p>Hospedate en los mejores hoteles</p>
+                    <p>Planifica tus vacaciones.</p>
+                    <p>Busca el lugar que quieres conocer</p>
+                    <h3>Ingresa el nuemero de personas con las que vas</h3>
+                      <h3>EASY TRAVEL te hace la vida mas facil
+                        cuentanos que necesitas 
+                         </h3>
+                         <h3>nosotros nos encargamos del resto</h3>
+                   
+
+                </div>
+            </div>
+        </section>
+        <section class="portafolio">
+            <div class="contenedor">
+                <h2 class="titulo">Ya conoces la nueva forma de Acampar
+                    con estilo.
+                    GLAMPING 
+                    Hasta con el 60% de descuento
+                     
+                </h2>
+                <div class="galeria-port">
+                    <div class="imagen-port">
+                        <img src="img/Oferta2.jpg" alt="">
+                        <div class="hovergaleria">
+                            <img src="img/target.svg" alt="">
+                            <p>nuestro trabajo</p>
+
+                        </div>
+                    </div>
+
+                    <div class="imagen-port">
+                        <img src="img/Oferta5.jpg" alt="">
+                        <div class="hovergaleria">
+                            <img src="img/target.svg" alt="">
+                            <p>nuestro trabajo</p>
+
+                        </div>
+                    </div>
+
+                    <div class="imagen-port">
+                        <img src="img/Oferta6.jpg" alt="">
+                        <div class="hovergaleria">
+                            <img src="img/target.svg" alt="">
+                            <p>nuestro trabajo</p>
+
+                        </div>
+                    </div>
+
+                    <div class="imagen-port">
+                        <img src="img/Oferta7.jpg" alt="">
+                        <div class="hovergaleria">
+                            <img src="img/target.svg" alt="">
+                            <p>nuestro trabajo</p>
+
+                        </div>
+                    </div>
+
+
+
+
+                </div>
+
+
+
+            </div>
+        </section>
+        <section class="clientes contenedor">
+            <h2 class="titulo">Sabias que con tu APP EASY TRAVEL estamos a un clic de poder llevarte a donde quieras
+            </h2>
+
+            <section class="contenedor-sobre-nosotros">
+            
+            <div class="contenedor-sobre-nosotros">
+                <img src="img/APP1.png" alt="" class="imagen-about-us">
+                <div class="contenido-textos">
+            
+                        
+                    <p>Descarga la APP 
+                    </p>
+                    <p>Registrate</p>
+                    <p>Planifica tus vacaciones</p>
+                    <p>Busca tu lugar favorito</p>
+                    <p>Ingresa con cuantas personas deseas viajar</p>
+                    <p>Ingresa fechas de viaje</p>
+                      <h3>Busca las mejores ofertas EASY TRAVEL te ofrece las tarifas mas bajas del mercado
+                         </h3>
+                   
+
+                </div>
+            </div>
+        </section>
+
+
+                        <h4>Chat</h4>
+                        <p>Puedes comunicarte con tu red familiar en todo momento, tambien puedes bloquear a quien no quieres que este en alguna conversación </p>
+                    </div>
+
+                
+
+                </div>
+
+            </div>
+        </section>
+        <section class="about-services">
+            <div class="contenedor">
+                <h2 class="titulo">Recomienda lo que quieras y a quien quieras</h2>
+                
+
+                   
+
+                    
+        </section>
+    </main>
+    <footer>
+        <div class="contenedor-footer">
+            <div class="content-foo">
+                <h4>Phone</h4>
+                <p>5555555</p>
+            </div>
+
+            <div class="content-foo">
+                <h4>Email</h4>
+                <p>easytravel@gmail.com</p>
+            </div>
+
+            <div class="content-foo">
+                <h4>Location</h4>
+                <p>Bogota</p>
+            </div>
+        </div>
+        <p class="titulo-final">&copy; Esta pagina esta hecha por Tudatalab</p>
+
+    </footer>
+
+
+
+
+</body>
+
+</html>
